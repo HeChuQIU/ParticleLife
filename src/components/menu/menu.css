@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.menu-div {
+  position: fixed;
+  background-color: rgba(74, 24, 122, 0.5);
+  width: 90%;
+  height: 190px;
+  min-width: 600px;
+  min-height: 150px;
+  right: 0;
+  left: 0;
+  bottom: -165px;
+  margin: auto;
+  border-radius: 16px 16px 0 0;
+  /* border-radius: 50%; */
+  outline: thick double #32a1ce;
+  transition: bottom 0.2s;
+}
+
+.menu-show-btn {
+  width: 50px;
+  height: 25px;
+  border-radius: 0 0 10px 10px;
+  outline: 0;
+  border: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  transition: background-color 0.1s;
+  user-select: none;
+  background-color: rgb(143, 143, 143);
+}
+
+.menu-show-btn:hover {
+  background-color: aliceblue;
+}
+
+.menu-show-btn:active {
+  background-color: rgb(216, 216, 216);
+}
+
+.menu-content {
+  width: 100%;
+  height: 160px;
+  /* background-color: aliceblue; */
+  margin-top: 25px;
+}

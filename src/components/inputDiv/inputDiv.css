@@ -1,0 +1,21 @@
+.input-div {
+  display: flex;
+  margin-top: 300px;
+  width: 200px;
+}
+
+.input-div > input {
+  height: 20px;
+  width: 140px;
+  outline: 0;
+  border: 0;
+  flex: 1;
+  background-color: rgb(177, 177, 177);
+}
+
+.input-div > button {
+  outline: 0;
+  border: 0;
+  flex: 1;
+  background-color: rgb(255, 255, 255);
+}
