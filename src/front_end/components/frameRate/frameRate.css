@@ -1,5 +1,6 @@
 .frame-rate {
   position: fixed;
+  top: 20px;
   width: 130px;
   height: 44px;
   color: aliceblue;

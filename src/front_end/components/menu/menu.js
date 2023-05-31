@@ -12,6 +12,6 @@ menuShowBtn.addEventListener("click", (event) => {
   } else {
     el.name = "down";
     el.innerText = "👇";
-    menu.setAttribute("style", "bottom:0px;");
+    menu.setAttribute("style", "bottom:1px;");
   }
 });
