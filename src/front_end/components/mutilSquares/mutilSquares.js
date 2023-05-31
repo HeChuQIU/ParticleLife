@@ -4,6 +4,11 @@ const gridColumnStr = "grid-template-columns:";
 const gridRowStr = "grid-template-rows:";
 const colorHex = "0123456789ABCDEF";
 
+mq.addEventListener("click", (event) => {
+  const el = event.target;
+  console.log(el);
+});
+
 function randomColor(count) {
   const ans = [];
   for (let k = 0; k < count; k++) {
