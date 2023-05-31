@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="../components/menu/menu.css" rel="stylesheet" />
+    <link href="../components/frameRate/frameRate.css" rel="stylesheet" />
+    <link href="../components/inputDiv/inputDiv.css" rel="stylesheet" />
+    <link
+      href="../components//mutilSquares/mutilSquares.css"
+      rel="stylesheet"
+    />
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="back-div">
+      <canvas id="indexCanvas" width="100px" height="100px"></canvas>
+    </div>
+    <div id="menu" class="menu-div">
+      <button id="menuShowButton" name="up" class="menu-show-btn">👆</button>
+      <div class="menu-content">
+        <div id="mutilSquares" class="mutil-squares"></div>
+      </div>
+    </div>
+    <div id="frameRate" class="frame-rate">
+      <span>Graphics FPS: 0</span>
+      <span>Physics FPS: 0</span>
+    </div>
+    <!-- <div>
+      <div id="mutilSquares" class="mutil-squares"></div>
+    </div> -->
+    <script src="./index.js"></script>
+    <script src="../components/menu/menu.js"></script>
+    <script src="../components/mutilSquares/mutilSquares.js"></script>
+  </body>
+</html>

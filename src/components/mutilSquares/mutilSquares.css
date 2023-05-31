@@ -1,0 +1,15 @@
+.mutil-squares {
+  width: 150px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 2px;
+  /* background-color: antiquewhite; */
+  /* box-sizing: border-box; */
+}
+
+.mutil-squares > div {
+  width: 100%;
+  height: 100%;
+}
